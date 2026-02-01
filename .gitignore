@@ -28,5 +28,18 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+ .idea/
+ .vscode/
+.DS_Store
+._*
+*.swp
+*.swo
+*.tmp
+*~
+
+# IDE files
+CLAUDE.md
+
+# Build output
+/bin/
+/dist/

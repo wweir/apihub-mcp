@@ -1,0 +1,8 @@
+
+### Fetch the latest schema catalog from SchemaStore
+GET https://www.schemastore.org/api/json/catalog.json
+
+### Get Schema by ID
+GET https://www.schemastore.org/api/json/catalog.json/{schemaId}
+
+https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json

@@ -1,0 +1,18 @@
+
+### 搜索文档
+GET https://api.apifox.com/api/v1/public-projects?order=default&pageSize=20&projectName=openai&page=1
+
+### 获取项目信息
+GET https://api.apifox.com/api/v1/projects/2100343?locale=zh-CN
+
+### 获取项目迭代分支列表
+get https://api.apifox.com/api/v1/projects/2100343/sprint-branches?locale=zh-CN
+
+### 获取项目文档目录树
+GET https://api.apifox.com/api/v1/projects/2100343/api-tree-list?locale=zh-CN
+
+### 获取API详情
+GET https://api.apifox.com/api/v1/api-details?locale=zh-CN
+Headers:
+x-branch-id: 2507834
+x-project-id: 2100343
